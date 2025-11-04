@@ -4,28 +4,28 @@ const songs = [
     title: 'Am tham ben em',
     artist: 'Son Tung M-TP',
     duration: 240,
-    filePath: 'Am-tham-ben-em.mp3',
+    filePath: '../assets/Am-tham-ben-em.mp3',
   },
   {
     id: '2',
-    title: 'Khi phai quen di',
+    title: 'Khi phai quen di em',
     artist: 'Miu Le',
     duration: 200,
-    filePath: 'Khi-phai-quen-di.mp3',
+    filePath: '../assets/Khi-phai-quen-di.mp3',
   },
   {
     id: '3',
     title: 'Sample Song',
     artist: 'Unknown',
     duration: 180,
-    filePath: 'Sample.mp3',
+    filePath: '../assets/Sample.mp3',
   },
   {
     id: '4',
     title: 'Yas',
     artist: 'K/DA',
     duration: 190,
-    filePath: 'Yas.mp3',
+    filePath: '../assets/Yas.mp3',
   },
 ];
 
