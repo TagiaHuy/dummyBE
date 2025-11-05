@@ -5,6 +5,7 @@ const songs = [
     artist: 'Son Tung M-TP',
     duration: 240,
     filePath: '../assets/Am-tham-ben-em.mp3',
+    imageUrl: '../assets/cmcmp3-logo.png',
   },
   {
     id: '2',
@@ -12,6 +13,7 @@ const songs = [
     artist: 'Miu Le',
     duration: 200,
     filePath: '../assets/Khi-phai-quen-di.mp3',
+    imageUrl: '../assets/cmcmp3-logo.png',
   },
   {
     id: '3',
@@ -19,6 +21,7 @@ const songs = [
     artist: 'Unknown',
     duration: 180,
     filePath: '../assets/Sample.mp3',
+    imageUrl: '../assets/cmcmp3-logo.png',
   },
   {
     id: '4',
@@ -26,6 +29,7 @@ const songs = [
     artist: 'K/DA',
     duration: 190,
     filePath: '../assets/Yas.mp3',
+    imageUrl: '../assets/cmcmp3-logo.png',
   },
 ];
 

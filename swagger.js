@@ -10,7 +10,7 @@ const options = {
     },
     servers: [
       {
-        url: 'http://localhost:8080',
+        url: 'http://localhost:8082',
       },
     ],
     components: {
@@ -37,6 +37,10 @@ const options = {
             filePath: {
               type: 'string',
               description: 'The path to the song file',
+            },
+            imageUrl: {
+              type: 'string',
+              description: "The song's image URL",
             },
           },
         },
