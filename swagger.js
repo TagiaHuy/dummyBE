@@ -38,6 +38,10 @@ const options = {
               type: 'string',
               description: 'The path to the song file',
             },
+            imageUrl: {
+              type: 'string',
+              description: "The song's image URL",
+            },
           },
         },
         Playlist: {

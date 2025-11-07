@@ -6,6 +6,7 @@ const songs = [
     duration: 240,
     imageUrl: 'https://i.pinimg.com/736x/2c/82/35/2c8235cb3a50d5e738b131535d72316c.jpg',
     filePath: '../assets/Am-tham-ben-em.mp3',
+    imageUrl: '../assets/cmcmp3-logo.png',
   },
   {
     id: '2',
@@ -14,6 +15,7 @@ const songs = [
     duration: 200,
     imageUrl: 'https://i.pinimg.com/736x/ad/98/f1/ad98f1618900ee06801f5244bcad67df.jpg',
     filePath: '../assets/Khi-phai-quen-di.mp3',
+    imageUrl: '../assets/cmcmp3-logo.png',
   },
   {
     id: '3',
@@ -22,6 +24,7 @@ const songs = [
     duration: 180,
     imageUrl: 'https://i.pinimg.com/736x/2c/78/10/2c7810d749b887b22b4372b1e3b267c1.jpg',
     filePath: '../assets/Sample.mp3',
+    imageUrl: '../assets/cmcmp3-logo.png',
   },
   {
     id: '4',
@@ -30,6 +33,7 @@ const songs = [
     duration: 190,
     imageUrl: 'https://i.pinimg.com/736x/02/b1/d0/02b1d06ca17f987d59a6714052eedf32.jpg',
     filePath: '../assets/Yas.mp3',
+    imageUrl: '../assets/cmcmp3-logo.png',
   },
   {
     id: '5',
