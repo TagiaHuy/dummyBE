@@ -42,6 +42,27 @@ const options = {
               type: 'string',
               description: "The song's image URL",
             },
+            listenCount: {
+              type: 'integer',
+              description: 'The number of times the song has been listened to',
+            },
+            likeCount: {
+              type: 'integer',
+              description: 'The number of likes the song has received',
+            },
+            description: {
+              type: 'string',
+              description: 'The song description',
+            },
+            createdAt: {
+              type: 'string',
+              format: 'date-time',
+              description: 'The date the song was created',
+            },
+            label: {
+              type: 'string',
+              description: 'The label assigned to the song',
+            },
           },
         },
         Playlist: {
@@ -65,6 +86,23 @@ const options = {
                 type: 'string',
               },
               description: 'The songs in the playlist',
+            },
+            numberOfSongs: {
+              type: 'integer',
+              description: 'The number of songs in the playlist',
+            },
+            createdAt: {
+              type: 'string',
+              format: 'date-time',
+              description: 'The date the playlist was created',
+            },
+            listenCount: {
+              type: 'integer',
+              description: 'The number of times the playlist has been listened to',
+            },
+            likeCount: {
+              type: 'integer',
+              description: 'The number of likes the playlist has received',
             },
           },
         },

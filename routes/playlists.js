@@ -60,6 +60,10 @@ router.post('/', (req, res) => {
     description,
     imageUrl,
     songs: [],
+    numberOfSongs: 0,
+    createdAt: new Date(),
+    listenCount: 0,
+    likeCount: 0,
   };
   playlists.push(newPlaylist);
   res.status(201).json(newPlaylist);
