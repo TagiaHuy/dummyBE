@@ -140,7 +140,8 @@ This document outlines the API endpoints required for the CMCMP3 music streaming
     ```json
     {
         "name": "My Awesome Playlist",
-        "description": "A collection of great songs."
+        "description": "A collection of great songs.",
+        "imageUrl": "https://example.com/image.jpg"
     }
     ```
 *   **Response Body**: 
@@ -149,6 +150,7 @@ This document outlines the API endpoints required for the CMCMP3 music streaming
         "id": "newPlaylistId",
         "name": "My Awesome Playlist",
         "description": "A collection of great songs.",
+        "imageUrl": "https://example.com/image.jpg",
         "songs": []
     }
     ```

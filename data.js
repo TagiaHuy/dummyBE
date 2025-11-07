@@ -4,6 +4,7 @@ const songs = [
     title: 'Am tham ben em',
     artist: 'Son Tung M-TP',
     duration: 240,
+    imageUrl: 'https://i.pinimg.com/736x/2c/82/35/2c8235cb3a50d5e738b131535d72316c.jpg',
     filePath: '../assets/Am-tham-ben-em.mp3',
   },
   {
@@ -11,6 +12,7 @@ const songs = [
     title: 'Khi phai quen di em',
     artist: 'Miu Le',
     duration: 200,
+    imageUrl: 'https://i.pinimg.com/736x/ad/98/f1/ad98f1618900ee06801f5244bcad67df.jpg',
     filePath: '../assets/Khi-phai-quen-di.mp3',
   },
   {
@@ -18,6 +20,7 @@ const songs = [
     title: 'Sample Song',
     artist: 'Unknown',
     duration: 180,
+    imageUrl: 'https://i.pinimg.com/736x/2c/78/10/2c7810d749b887b22b4372b1e3b267c1.jpg',
     filePath: '../assets/Sample.mp3',
   },
   {
@@ -25,23 +28,95 @@ const songs = [
     title: 'Yas',
     artist: 'K/DA',
     duration: 190,
+    imageUrl: 'https://i.pinimg.com/736x/02/b1/d0/02b1d06ca17f987d59a6714052eedf32.jpg',
     filePath: '../assets/Yas.mp3',
   },
+  {
+    id: '5',
+    title: 'Another Song',
+    artist: 'Some Artist',
+    duration: 210,
+    imageUrl: 'https://i.pinimg.com/736x/3d/e3/9c/3de39c72889a1039fffe853f826e8c46.jpg',
+    filePath: '../assets/Another-Song.mp3',
+  },
+  {
+    id: '6',
+    title: 'Final Track',
+    artist: 'Final Artist',
+    duration: 230,
+    imageUrl: 'https://i.pinimg.com/736x/a9/8e/bf/a98ebfa0604f9d66ca7d7cdac2120793.jpg',
+    filePath: '../assets/Final-Track.mp3',
+  },
+  {
+    id: '7',
+    title: 'Last Song',
+    artist: 'Last Artist',
+    duration: 220,
+    imageUrl: 'https://i.pinimg.com/736x/57/5b/84/575b84c82825dbf7c1b84169b30476f8.jpg',
+    filePath: '../assets/Last-Song.mp3',
+  },
+  {
+    id: '8',
+    title: 'Hit Single',
+    artist: 'Famous Artist',
+    duration: 250,
+    imageUrl: 'https://i.pinimg.com/736x/82/5a/8e/825a8e195f10950ba0cb0bcf1801ee19.jpg',
+    filePath: '../assets/Hit-Single.mp3',
+  },
+  {
+    id: '9',
+    title: 'Cool Tune',
+    artist: 'Cool Artist',
+    duration: 260,
+    imageUrl: 'https://i.pinimg.com/736x/48/74/42/48744244c3c950a5ee86e9906c754b71.jpg',
+    filePath: '../assets/Cool-Tune.mp3',
+  },
+  {
+    id: '10',
+    title: 'Dance Beat',
+    artist: 'DJ Mix',
+    duration: 270,
+    imageUrl: 'https://i.pinimg.com/736x/4d/2f/99/4d2f99a47c7ca20a5463c6ba6f54e8b0.jpg',
+    filePath: '../assets/Dance-Beat.mp3',
+  }
 ];
 
 const playlists = [
   {
-    id: 'playlist1',
-    name: 'Top Hits',
+    id: 'l1',
+    name: 'Maybe you like',
     description: 'Popular songs',
-    songs: ['1', '2'],
+    imageUrl: 'https://i.pinimg.com/736x/f6/9b/4f/f69b4f00047c6d8d968f10354309c475.jpg',
+    songs: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],
   },
   {
-    id: 'playlist2',
-    name: 'My Favorites',
+    id: 'l2',
+    name: 'Recommended for you',
     description: 'My personal favorite songs',
-    songs: ['3', '4'],
+    imageUrl: 'https://i.pinimg.com/736x/57/5b/84/575b84c82825dbf7c1b84169b30476f8.jpg',
+    songs: ['3', '4', '5', '6' ,'7' ],
   },
+  {
+    id: 'l3',
+    name: 'Top Hits',
+    description: 'The most popular songs right now',
+    imageUrl: 'https://i.pinimg.com/736x/aa/12/34/aa1234abcd5678efgh9012ijkl3456mn.jpg',
+    songs: ['5', '6', '9', '10'],
+  },
+  {
+    id: 'l4',
+    name: 'Chill Vibes',
+    description: 'Relaxing and soothing tracks',
+    imageUrl: 'https://i.pinimg.com/736x/bb/23/45/bb2345cdef6789ghij0123klmn4567op.jpg',
+    songs: ['7', '8'],
+  },
+  {
+    id: 'l5',
+    name: 'Workout Mix',
+    description: 'High energy songs to keep you moving',
+    imageUrl: 'https://i.pinimg.com/736x/cc/34/56/cc3456def7890hijk1234lmno5678pq.jpg',
+    songs: ['9', '10'],
+  }
 ];
 
 module.exports = { songs, playlists };

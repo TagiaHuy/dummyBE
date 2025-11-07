@@ -53,11 +53,12 @@ router.get('/', (req, res) => {
  *         description: Some server error
  */
 router.post('/', (req, res) => {
-  const { name, description } = req.body;
+  const { name, description, imageUrl } = req.body;
   const newPlaylist = {
     id: `playlist${playlists.length + 1}`,
     name,
     description,
+    imageUrl,
     songs: [],
   };
   playlists.push(newPlaylist);
