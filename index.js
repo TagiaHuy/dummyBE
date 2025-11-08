@@ -19,12 +19,14 @@ const playlistsRouter = require('./routes/playlists');
 const authRouter = require('./routes/auth');
 const userRouter = require('./routes/user');
 const searchRouter = require('./routes/search');
+const artistsRouter = require('./routes/artists');
 
 app.use('/api/songs', songsRouter);
 app.use('/api/playlists', playlistsRouter);
 app.use('/api/auth', authRouter);
 app.use('/api/users', userRouter);
 app.use('/api/search', searchRouter);
+app.use('/api/artists', artistsRouter);
 
 app.get('/', (req, res) => {
   res.send('CMCMP3 API is running!');

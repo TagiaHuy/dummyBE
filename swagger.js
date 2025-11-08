@@ -127,6 +127,23 @@ const options = {
             },
           },
         },
+        Artist: {
+          type: 'object',
+          properties: {
+            id: {
+              type: 'string',
+              description: 'The auto-generated id of the artist',
+            },
+            name: {
+              type: 'string',
+              description: 'The name of the artist',
+            },
+            imageUrl: {
+              type: 'string',
+              description: "The artist's image URL",
+            },
+          },
+        },
       },
       securitySchemes: {
         bearerAuth: {

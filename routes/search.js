@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { songs, playlists } = require('../data');
+const { songs, playlists, artists } = require('../data');
 
 // Search
 /**
@@ -38,12 +38,7 @@ const { songs, playlists } = require('../data');
  *                 artists:
  *                   type: array
  *                   items:
- *                     type: object
- *                     properties:
- *                       id:
- *                         type: string
- *                       name:
- *                         type: string
+ *                     $ref: '#/components/schemas/Artist'
  *                 playlists:
  *                   type: array
  *                   items:
@@ -58,14 +53,13 @@ router.get('/', (req, res) => {
     playlist.name.toLowerCase().includes(query) || playlist.description.toLowerCase().includes(query)
   );
 
-  // For artists, we'll just return unique artists from the songs
-  const artists = [...new Set(songs.map(song => song.artist))].filter(artist =>
-    artist.toLowerCase().includes(query)
-  ).map((artist, index) => ({ id: `artist${index + 1}`, name: artist }));
+  const filteredArtists = artists.filter(artist =>
+    artist.name.toLowerCase().includes(query)
+  );
 
   res.json({
     songs: filteredSongs,
-    artists: artists,
+    artists: filteredArtists,
     playlists: filteredPlaylists,
   });
 });

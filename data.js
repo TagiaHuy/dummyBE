@@ -15,7 +15,7 @@ const songs = [
   {
     id: '2',
     title: 'Khi phai quen di em',
-    artist: 'Miu Le',
+    artist: 'Son Tung M-TP',
     duration: 200,
     imageUrl: 'https://i.pinimg.com/736x/ad/98/f1/ad98f1618900ee06801f5244bcad67df.jpg',
     filePath: '../assets/Khi-phai-quen-di.mp3',
@@ -189,4 +189,57 @@ const playlists = [
   }
 ];
 
-module.exports = { songs, playlists };
+const artists = [
+  {
+    id: '1',
+    name: 'Son Tung M-TP',
+    imageUrl: 'https://i.pinimg.com/736x/82/5a/8e/825a8e195f10950ba0cb0bcf1801ee19.jpg',
+  },
+  {
+    id: '2',
+    name: 'Miu Le',
+    imageUrl: 'https://i.pinimg.com/736x/ad/98/f1/ad98f1618900ee06801f5244bcad67df.jpg',
+  },
+  {
+    id: '3',
+    name: 'Unknown',
+    imageUrl: 'https://i.pinimg.com/736x/2c/78/10/2c7810d749b887b22b4372b1e3b267c1.jpg',
+  },
+  {
+    id: '4',
+    name: 'K/DA',
+    imageUrl: 'https://i.pinimg.com/736x/02/b1/d0/02b1d06ca17f987d59a6714052eedf32.jpg',
+  },
+  {
+    id: '5',
+    name: 'Some Artist',
+    imageUrl: 'https://i.pinimg.com/736x/3d/e3/9c/3de39c72889a1039fffe853f826e8c46.jpg',
+  },
+  {
+    id: '6',
+    name: 'Final Artist',
+    imageUrl: 'https://i.pinimg.com/736x/a9/8e/bf/a98ebfa0604f9d66ca7d7cdac2120793.jpg',
+  },
+  {
+    id: '7',
+    name: 'Last Artist',
+    imageUrl: 'https://i.pinimg.com/736x/57/5b/84/575b84c82825dbf7c1b84169b30476f8.jpg',
+  },
+  {
+    id: '8',
+    name: 'Famous Artist',
+    imageUrl: 'https://i.pinimg.com/736x/82/5a/8e/825a8e195f10950ba0cb0bcf1801ee19.jpg',
+  },
+  {
+    id: '9',
+    name: 'Cool Artist',
+    imageUrl: 'https://i.pinimg.com/736x/48/74/42/48744244c3c950a5ee86e9906c754b71.jpg',
+  },
+  {
+    id: '10',
+    name: 'DJ Mix',
+    imageUrl: 'https://i.pinimg.com/736x/4d/2f/99/4d2f99a47c7ca20a5463c6ba6f54e8b0.jpg',
+  }
+];
+
+module.exports = { songs, playlists, artists };
